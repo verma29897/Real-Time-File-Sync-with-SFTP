@@ -55,12 +55,12 @@ def monitor_and_update(local_file, remote_file, hostname, port, username, passwo
             time.sleep(5)
 
 # Replace these values with your SSH server details and file paths
-hostname = "182.79.97.204"
+hostname = ""
 port = 22
-username = "wlg"
-password = "wlg@1234"
-local_file_path = "/home/wlg/Record.csv"
-remote_file_path = "/home/wlg/Downloads/Record.csv"
+username = ""
+password = ""
+local_file_path = "/Record.csv"
+remote_file_path = "Downloads/Record.csv"
 update_interval_seconds = 300  # 5 minutes
 
 # Call the function to monitor and update the remote file in real-time
